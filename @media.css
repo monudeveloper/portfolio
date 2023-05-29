@@ -1,0 +1,97 @@
+:root {
+    --main-color: #007bff;
+    --skill-color: #2d2c2c;
+  }
+  
+  @media (max-width: 880px) {
+    .contactbar {
+      left: -3%;
+    }
+    .hamburger {
+      display: block;
+    }
+    .navbar {
+      position: absolute;
+      background-color: #030303;
+      display: none;
+      transition: 2s ease-in-out;
+    }
+    .cross#navbar {
+      width: 100%;
+      height: 300px;
+      display: block;
+      top: 0%;
+      transition: 2s ease-in-out;
+    }
+    .cross#nav {
+      flex-direction: column;
+      bottom: 0;
+      justify-content: space-evenly;
+      position: absolute;
+      height: 75%;
+      padding-left: 30px;
+    }
+    .slide {
+      height: 300px;
+    }
+  }
+  @media (max-width: 800px) {
+    .about-sec {
+      flex-direction: column;
+    }
+    .img-sec {
+      width: 90%;
+      height: 50%;
+    }
+    .self-sec {
+      width: 90%;
+      height: 45%;
+    }
+    .skill-sec {
+      width: 100%;
+    }
+    .img {
+      width: 40%;
+    }
+    .portfolio-sec {
+      height: 640px;
+      width: 100%;
+    }
+    swiper-slide {
+      flex-direction: column;
+    }
+    .slide {
+      width: 75%;
+      height: 50%;
+    }
+    .slide-content {
+      width: 85%;
+      height: 35%;
+    }
+    .duration {
+      font-size: clamp(8px, 4vw, 16px) !important;
+    }
+    .form {
+      flex-direction: column;
+      height: 780px;
+    }
+    .contact-me-form {
+      height: 52%;
+      width: 100%;
+      padding: 0px;
+    }
+    .contact-link-form {
+      height: 45%;
+      width: 100%;
+    }
+    .input-text,
+    #subject,
+    #text-area {
+      margin: 7px 0px;
+    }
+    .box {
+      width: 45%;
+      height: 100px;
+    }
+  }
+  
